@@ -59,10 +59,6 @@ OCTET:
 IPV4: OCTET '.' OCTET '.' OCTET '.' OCTET;
 IPV4_TYPE: 'ipv4';
 
-ARRAY:(TEXT | NUMBER | BOOLEAN | IPV4)*;
-ARRAY_TYPE: 'array';
-
-
 LOOP: 'loop';
 IF: 'if';
 ELSE: 'else';

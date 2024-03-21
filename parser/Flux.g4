@@ -1,4 +1,4 @@
-parser grammar Main;
+parser grammar Flux;
 import Variables, Math;
 
 options {

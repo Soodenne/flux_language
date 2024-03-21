@@ -1,10 +1,10 @@
-// Code generated from Main.g4 by ANTLR 4.13.1. DO NOT EDIT.
+// Code generated from Flux.g4 by ANTLR 4.13.1. DO NOT EDIT.
 
-package parsing // Main
+package parsing // Flux
 import "github.com/antlr4-go/antlr/v4"
 
-// MainListener is a complete listener for a parse tree produced by Main.
-type MainListener interface {
+// FluxListener is a complete listener for a parse tree produced by Flux.
+type FluxListener interface {
 	antlr.ParseTreeListener
 
 	// EnterProgram is called when entering the program production.
@@ -48,9 +48,6 @@ type MainListener interface {
 
 	// EnterOp_one_declaration is called when entering the op_one_declaration production.
 	EnterOp_one_declaration(c *Op_one_declarationContext)
-
-	// EnterOp_two_expression is called when entering the op_two_expression production.
-	EnterOp_two_expression(c *Op_two_expressionContext)
 
 	// EnterString_var_declaration is called when entering the string_var_declaration production.
 	EnterString_var_declaration(c *String_var_declarationContext)
@@ -150,9 +147,6 @@ type MainListener interface {
 
 	// ExitOp_one_declaration is called when exiting the op_one_declaration production.
 	ExitOp_one_declaration(c *Op_one_declarationContext)
-
-	// ExitOp_two_expression is called when exiting the op_two_expression production.
-	ExitOp_two_expression(c *Op_two_expressionContext)
 
 	// ExitString_var_declaration is called when exiting the string_var_declaration production.
 	ExitString_var_declaration(c *String_var_declarationContext)
